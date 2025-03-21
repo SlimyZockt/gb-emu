@@ -1,0 +1,8 @@
+/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/cboy.dir
+/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/edit_cache.dir
+/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/rebuild_cache.dir
+/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
+/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/CMakeFiles/SDL3_test.dir
+/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/CMakeFiles/edit_cache.dir
+/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/CMakeFiles/rebuild_cache.dir

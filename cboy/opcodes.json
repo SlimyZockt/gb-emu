@@ -189,7 +189,7 @@
 				"C": "-"
 			}
 		},
-		"0x09": json{
+		"0x09": {
 			"mnemonic": "ADD",
 			"bytes": 1,
 			"cycles": [

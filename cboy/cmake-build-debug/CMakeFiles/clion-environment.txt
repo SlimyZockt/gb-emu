@@ -1,4 +1,4 @@
-ToolSet: 1.0 (local)Ninja: 1.12.1@/nix/store/v6w4m411bdaakmzv701b1874ly7ilw99-clion-2024.3.3/clion/bin/ninja/linux/x64/ninja
+ToolSet: 1.0 (local)Ninja: 1.12.1@/opt/clion/bin/ninja/linux/x64/ninja
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=/nix/store/v6w4m411bdaakmzv701b1874ly7ilw99-clion-2024.3.3/clion/bin/ninja/linux/x64/ninja
+Options:-DCMAKE_C_COMPILER=clang

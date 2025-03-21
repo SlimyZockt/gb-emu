@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/cboy.dir/link.d CMakeFiles/cboy.dir/main.c.o CMakeFiles/cboy.dir/cJSON.c.o -o cboy  -Wl,-rpath,/home/myt/Dokumente/projects/gb-emu/cboy/cmake libSDL3.so.0.3.0

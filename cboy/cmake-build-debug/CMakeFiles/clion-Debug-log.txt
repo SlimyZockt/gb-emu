@@ -1,17 +1,17 @@
-/nix/store/v6w4m411bdaakmzv701b1874ly7ilw99-clion-2024.3.3/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/nix/store/v6w4m411bdaakmzv701b1874ly7ilw99-clion-2024.3.3/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/myt/Dokumente/CodeStuff/gb-emu/cboy -B /home/myt/Dokumente/CodeStuff/gb-emu/cboy/cmake-build-debug
--- The C compiler identification is GNU 13.3.0
--- The CXX compiler identification is GNU 13.3.0
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang -G "Unix Makefiles" -S /home/myt/Dokumente/projects/gb-emu/cboy -B /home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug
+-- The C compiler identification is Clang 19.1.7
+-- The CXX compiler identification is GNU 14.2.1
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /etc/profiles/per-user/myt/bin/cc - skipped
+-- Check for working C compiler: /usr/bin/clang - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /etc/profiles/per-user/myt/bin/c++ - skipped
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found PkgConfig: /nix/store/alsqcdafvm8wlbl02qs2km1rcqaqrxhm-pkgconf-wrapper-2.3.0/bin/pkgconf (found version "2.3.0")
+-- Found PkgConfig: /usr/bin/pkg-config (found version "2.3.0")
 -- Detecting Target CPU Architecture
 -- Detecting Target CPU Architecture - X64
 -- Performing Test HAVE_GCC_WALL
@@ -23,21 +23,19 @@
 -- Performing Test HAVE_GCC_NO_STRICT_ALIASING
 -- Performing Test HAVE_GCC_NO_STRICT_ALIASING - Success
 -- Performing Test HAVE_GCC_WDOCUMENTATION
--- Performing Test HAVE_GCC_WDOCUMENTATION - Failed
+-- Performing Test HAVE_GCC_WDOCUMENTATION - Success
 -- Performing Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND
--- Performing Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND - Failed
+-- Performing Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND - Success
 -- Performing Test HAVE_GCC_COMMENT_BLOCK_COMMANDS
--- Performing Test HAVE_GCC_COMMENT_BLOCK_COMMANDS - Failed
--- Performing Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS
--- Performing Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS - Failed
+-- Performing Test HAVE_GCC_COMMENT_BLOCK_COMMANDS - Success
 -- Performing Test HAVE_GCC_WSHADOW
 -- Performing Test HAVE_GCC_WSHADOW - Success
 -- Performing Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS
 -- Performing Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS - Success
 -- Performing Test HAVE_GCC_WIMPLICIT_FALLTHROUGH
 -- Performing Test HAVE_GCC_WIMPLICIT_FALLTHROUGH - Success
--- Performing Test COMPILER_SUPPORTS_FDIAGNOSTICS_COLOR_ALWAYS
--- Performing Test COMPILER_SUPPORTS_FDIAGNOSTICS_COLOR_ALWAYS - Success
+-- Performing Test COMPILER_SUPPORTS_FCOLOR_DIAGNOSTICS
+-- Performing Test COMPILER_SUPPORTS_FCOLOR_DIAGNOSTICS - Success
 -- Looking for __GLIBC__
 -- Looking for __GLIBC__ - found
 -- Performing Test LINKER_SUPPORTS_VERSION_SCRIPT
@@ -358,43 +356,82 @@
 -- Looking for dlopen - found
 -- Performing Test HAVE_O_CLOEXEC
 -- Performing Test HAVE_O_CLOEXEC - Success
--- Could NOT find ALSA (missing: ALSA_LIBRARY ALSA_INCLUDE_DIR) 
-CMake Warning at vendored/SDL/cmake/sdlchecks.cmake:123 (message):
-  Unable to find the alsa development library
-Call Stack (most recent call first):
-  vendored/SDL/CMakeLists.txt:1573 (CheckALSA)
-
-
+-- Found ALSA: /usr/lib/libasound.so (found version "1.2.13")
+-- dynamic libasound -> libasound.so.2
 -- Checking for module 'jack'
---   Package 'jack' not found
+--   Found jack, version 3.1401.0
+-- dynamic libjack -> libjack.so.0
 -- Checking for module 'libpipewire-0.3>=0.3.44'
---   Package 'libpipewire-0.3' not found
+--   Found libpipewire-0.3, version 1.4.1
+-- dynamic libpipewire-0.3 -> libpipewire-0.3.so.0
 -- Checking for module 'libpulse>=0.9.15'
---   Package 'libpulse' not found
+--   Found libpulse, version 17.0-43-g3e2bb
+-- dynamic libpulse -> libpulse.so.0
 -- Checking for module 'sndio'
---   Package 'sndio' not found
--- Could NOT find X11 (missing: X11_X11_INCLUDE_PATH X11_X11_LIB) 
--- Could NOT find OpenGL (missing: OPENGL_opengl_LIBRARY OPENGL_glx_LIBRARY OPENGL_INCLUDE_DIR) 
+--   Found sndio, version 1.10.0
+-- dynamic libsndio -> libsndio.so.7
+-- Found X11: /usr/include
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/libX11.so;/usr/lib/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- dynamic libX11 -> libX11.so.6
+-- dynamic libXext -> libXext.so.6
+-- dynamic libXcursor -> libXcursor.so.1
+-- dynamic libXi -> libXi.so.6
+-- dynamic libXfixes -> libXfixes.so.3
+-- dynamic libXrandr -> libXrandr.so.2
+-- dynamic libXrender -> libXrender.so.1
+-- dynamic libXss -> libXss.so.1
+-- dynamic libXtst -> libXtst.so.6
+-- Looking for shmat
+-- Looking for shmat - found
+-- Performing Test HAVE_XGENERICEVENT
+-- Performing Test HAVE_XGENERICEVENT - Success
+-- Looking for XkbLookupKeySym
+-- Looking for XkbLookupKeySym - found
+-- Performing Test HAVE_XINPUT2_MULTITOUCH
+-- Performing Test HAVE_XINPUT2_MULTITOUCH - Success
+-- Performing Test HAVE_XFIXES_H
+-- Performing Test HAVE_XFIXES_H - Success
+-- Found OpenGL: /usr/lib/libOpenGL.so
 -- Performing Test HAVE_OPENGL_EGL
 -- Performing Test HAVE_OPENGL_EGL - Success
 -- Checking for module 'libdrm'
---   Package 'libdrm' not found
+--   Found libdrm, version 2.4.124
 -- Checking for module 'gbm'
---   Package 'gbm' not found
+--   Found gbm, version 25.0.1-arch1.2
+-- dynamic libdrm -> libdrm.so.2
+-- dynamic libgbm -> libgbm.so.1
 -- Performing Test HAVE_OPENGL_GLX
--- Performing Test HAVE_OPENGL_GLX - Failed
+-- Performing Test HAVE_OPENGL_GLX - Success
 -- Performing Test HAVE_OPENGL
--- Performing Test HAVE_OPENGL - Failed
+-- Performing Test HAVE_OPENGL - Success
 -- Performing Test HAVE_OPENGLES_V1
 -- Performing Test HAVE_OPENGLES_V1 - Failed
 -- Performing Test HAVE_OPENGLES_V2
 -- Performing Test HAVE_OPENGLES_V2 - Success
 -- Checking for modules 'wayland-client>=1.18;wayland-egl;wayland-cursor;egl;xkbcommon>=0.5.0'
---   Package 'wayland-client' not found
---   Package 'wayland-egl' not found
---   Package 'wayland-cursor' not found
---   Package 'egl' not found
---   Package 'xkbcommon' not found
+--   Found wayland-client, version 1.23.1
+--   Found wayland-egl, version 18.1.0
+--   Found wayland-cursor, version 1.23.1
+--   Found egl, version 1.5
+--   Found xkbcommon, version 1.8.1
+-- dynamic libwayland-client -> libwayland-client.so.0
+-- dynamic libwayland-egl -> libwayland-egl.so.1
+-- dynamic libwayland-cursor -> libwayland-cursor.so.0
+-- dynamic libxkbcommon -> libxkbcommon.so.0
+-- Checking for module 'libdecor-0'
+--   Found libdecor-0, version 0.2.2
+-- dynamic libdecor-0 -> libdecor-0.so.0
 -- Performing Test HAVE_LINUX_INPUT_H
 -- Performing Test HAVE_LINUX_INPUT_H - Success
 -- Performing Test HAVE_INPUT_KD
@@ -402,7 +439,8 @@ Call Stack (most recent call first):
 -- Performing Test HAVE_LINUX_VIDEODEV2_H
 -- Performing Test HAVE_LINUX_VIDEODEV2_H - Success
 -- Looking for libudev.h
--- Looking for libudev.h - not found
+-- Looking for libudev.h - found
+-- dynamic libudev -> libudev.so.1
 -- Looking for sys/inotify.h
 -- Looking for sys/inotify.h - found
 -- Looking for inotify_init
@@ -417,11 +455,15 @@ Call Stack (most recent call first):
 -- Performing Test LIBUNWIND_HAS_WORKINGLIBUNWIND
 -- Performing Test LIBUNWIND_HAS_WORKINGLIBUNWIND - Failed
 -- Checking for modules 'libunwind;libunwind-generic'
---   Package 'libunwind' not found
---   Package 'libunwind-generic' not found
+--   Found libunwind, version 1.8.1
+--   Found libunwind-generic, version 1.8.1
+-- Performing Test PC_LIBUNWIND_HAS_WORKING_LIBUNWIND
+-- Performing Test PC_LIBUNWIND_HAS_WORKING_LIBUNWIND - Success
 -- Checking for module 'libusb-1.0>=1.0.16'
---   Package 'libusb-1.0' not found
--- Could NOT find LibUSB (missing: LibUSB_LIBRARY LibUSB_INCLUDE_PATH) (found version "LibUSB_VERSION-NOTFOUND")
+--   Found libusb-1.0, version 1.0.27
+-- Found LibUSB: /usr/lib/libusb-1.0.so (found version "1.0.27")
+-- Performing Test HAVE_LIBUSB_H
+-- Performing Test HAVE_LIBUSB_H - Success
 -- Performing Test HAVE_PTHREADS
 -- Performing Test HAVE_PTHREADS - Success
 -- Performing Test HAVE_RECURSIVE_MUTEXES
@@ -445,10 +487,10 @@ Call Stack (most recent call first):
 -- 
 -- SDL3 was configured with the following options:
 -- 
--- Platform: Linux-6.6.82
+-- Platform: Linux-6.12.19-1-lts
 -- 64-bit:   TRUE
--- Compiler: /etc/profiles/per-user/myt/bin/cc
--- Revision: SDL3-3.3.0-release-3.2.6-113-gd66483dfc
+-- Compiler: /usr/bin/clang
+-- Revision: SDL3-3.3.0-release-3.2.6-119-g3e5664a5b
 -- Vendor:   
 -- 
 -- Subsystems:
@@ -465,8 +507,8 @@ Call Stack (most recent call first):
 --   Dialog:   ON
 -- 
 -- Options:
---   SDL_ALSA                    (Wanted: ON): OFF
---   SDL_ALSA_SHARED             (Wanted: ON): OFF
+--   SDL_ALSA                    (Wanted: ON): ON
+--   SDL_ALSA_SHARED             (Wanted: ON): ON
 --   SDL_ALTIVEC                 (Wanted: OFF): OFF
 --   SDL_ARMNEON                 (Wanted: OFF): OFF
 --   SDL_ASAN                    (Wanted: OFF): OFF
@@ -480,7 +522,7 @@ Call Stack (most recent call first):
 --   SDL_CLANG_TIDY              (Wanted: OFF): OFF
 --   SDL_CLOCK_GETTIME           (Wanted: ON): ON
 --   SDL_COCOA                   (Wanted: OFF): OFF
---   SDL_DBUS                    (Wanted: ON): OFF
+--   SDL_DBUS                    (Wanted: ON): ON
 --   SDL_DEPS_SHARED             (Wanted: ON): OFF
 --   SDL_DIRECTX                 (Wanted: OFF): OFF
 --   SDL_DISKAUDIO               (Wanted: ON): ON
@@ -494,34 +536,34 @@ Call Stack (most recent call first):
 --   SDL_GPU_DXVK                (Wanted: OFF): OFF
 --   SDL_HIDAPI                  (Wanted: ON): ON
 --   SDL_HIDAPI_JOYSTICK         (Wanted: ON): ON
---   SDL_HIDAPI_LIBUSB           (Wanted: ON): OFF
---   SDL_HIDAPI_LIBUSB_SHARED    (Wanted: ON): OFF
---   SDL_IBUS                    (Wanted: ON): OFF
+--   SDL_HIDAPI_LIBUSB           (Wanted: ON): ON
+--   SDL_HIDAPI_LIBUSB_SHARED    (Wanted: ON): ON
+--   SDL_IBUS                    (Wanted: ON): ON
 --   SDL_INSTALL                 (Wanted: OFF): OFF
 --   SDL_INSTALL_TESTS           (Wanted: OFF): OFF
---   SDL_JACK                    (Wanted: ON): OFF
---   SDL_JACK_SHARED             (Wanted: ON): OFF
---   SDL_KMSDRM                  (Wanted: ON): OFF
---   SDL_KMSDRM_SHARED           (Wanted: ON): OFF
+--   SDL_JACK                    (Wanted: ON): ON
+--   SDL_JACK_SHARED             (Wanted: ON): ON
+--   SDL_KMSDRM                  (Wanted: ON): ON
+--   SDL_KMSDRM_SHARED           (Wanted: ON): ON
 --   SDL_LASX                    (Wanted: OFF): OFF
 --   SDL_LIBC                    (Wanted: ON): ON
 --   SDL_LIBICONV                (Wanted: OFF): OFF
---   SDL_LIBUDEV                 (Wanted: ON): OFF
+--   SDL_LIBUDEV                 (Wanted: ON): ON
 --   SDL_LIBURING                (Wanted: ON): OFF
 --   SDL_LSX                     (Wanted: OFF): OFF
 --   SDL_METAL                   (Wanted: OFF): OFF
 --   SDL_MMX                     (Wanted: ON): ON
 --   SDL_OFFSCREEN               (Wanted: ON): ON
---   SDL_OPENGL                  (Wanted: ON): OFF
+--   SDL_OPENGL                  (Wanted: ON): ON
 --   SDL_OPENGLES                (Wanted: ON): ON
 --   SDL_OPENVR                  (Wanted: OFF): OFF
 --   SDL_OSS                     (Wanted: OFF): OFF
---   SDL_PIPEWIRE                (Wanted: ON): OFF
---   SDL_PIPEWIRE_SHARED         (Wanted: ON): OFF
+--   SDL_PIPEWIRE                (Wanted: ON): ON
+--   SDL_PIPEWIRE_SHARED         (Wanted: ON): ON
 --   SDL_PTHREADS                (Wanted: ON): ON
 --   SDL_PTHREADS_SEM            (Wanted: ON): ON
---   SDL_PULSEAUDIO              (Wanted: ON): OFF
---   SDL_PULSEAUDIO_SHARED       (Wanted: ON): OFF
+--   SDL_PULSEAUDIO              (Wanted: ON): ON
+--   SDL_PULSEAUDIO_SHARED       (Wanted: ON): ON
 --   SDL_RENDER_D3D              (Wanted: OFF): OFF
 --   SDL_RENDER_D3D11            (Wanted: OFF): OFF
 --   SDL_RENDER_D3D12            (Wanted: OFF): OFF
@@ -531,8 +573,8 @@ Call Stack (most recent call first):
 --   SDL_ROCKCHIP                (Wanted: OFF): OFF
 --   SDL_RPATH                   (Wanted: ON): ON
 --   SDL_RPI                     (Wanted: OFF): OFF
---   SDL_SNDIO                   (Wanted: ON): OFF
---   SDL_SNDIO_SHARED            (Wanted: ON): OFF
+--   SDL_SNDIO                   (Wanted: ON): ON
+--   SDL_SNDIO_SHARED            (Wanted: ON): ON
 --   SDL_SSE                     (Wanted: ON): ON
 --   SDL_SSE2                    (Wanted: ON): ON
 --   SDL_SSE3                    (Wanted: ON): ON
@@ -546,21 +588,21 @@ Call Stack (most recent call first):
 --   SDL_VIVANTE                 (Wanted: OFF): OFF
 --   SDL_VULKAN                  (Wanted: ON): ON
 --   SDL_WASAPI                  (Wanted: OFF): OFF
---   SDL_WAYLAND                 (Wanted: ON): OFF
---   SDL_WAYLAND_LIBDECOR        (Wanted: ON): OFF
---   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: ON): OFF
---   SDL_WAYLAND_SHARED          (Wanted: ON): OFF
---   SDL_X11                     (Wanted: ON): OFF
---   SDL_X11_SHARED              (Wanted: ON): OFF
---   SDL_X11_XCURSOR             (Wanted: ON): OFF
---   SDL_X11_XDBE                (Wanted: ON): OFF
---   SDL_X11_XFIXES              (Wanted: ON): OFF
---   SDL_X11_XINPUT              (Wanted: ON): OFF
---   SDL_X11_XRANDR              (Wanted: ON): OFF
---   SDL_X11_XSCRNSAVER          (Wanted: ON): OFF
---   SDL_X11_XSHAPE              (Wanted: ON): OFF
---   SDL_X11_XSYNC               (Wanted: ON): OFF
---   SDL_X11_XTEST               (Wanted: ON): OFF
+--   SDL_WAYLAND                 (Wanted: ON): ON
+--   SDL_WAYLAND_LIBDECOR        (Wanted: ON): ON
+--   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: ON): ON
+--   SDL_WAYLAND_SHARED          (Wanted: ON): ON
+--   SDL_X11                     (Wanted: ON): ON
+--   SDL_X11_SHARED              (Wanted: ON): ON
+--   SDL_X11_XCURSOR             (Wanted: ON): ON
+--   SDL_X11_XDBE                (Wanted: ON): ON
+--   SDL_X11_XFIXES              (Wanted: ON): ON
+--   SDL_X11_XINPUT              (Wanted: ON): ON
+--   SDL_X11_XRANDR              (Wanted: ON): ON
+--   SDL_X11_XSCRNSAVER          (Wanted: ON): ON
+--   SDL_X11_XSHAPE              (Wanted: ON): ON
+--   SDL_X11_XSYNC               (Wanted: ON): ON
+--   SDL_X11_XTEST               (Wanted: ON): ON
 --   SDL_XINPUT                  (Wanted: OFF): OFF
 -- 
 --  Build Shared Library: ON
@@ -570,22 +612,6 @@ Call Stack (most recent call first):
 -- were installed, then make sure you have set the
 -- CMAKE_C_FLAGS and CMAKE_PREFIX_PATH CMake variables correctly.
 -- 
-CMake Error at vendored/SDL/cmake/macros.cmake:382 (message):
-  SDL could not find X11 or Wayland development libraries on your system.
-  This means SDL will not be able to create windows on a typical unix
-  operating system.  Most likely, this is not wanted.
-
-  On Linux, install the packages listed at
-  https://github.com/libsdl-org/SDL/blob/main/docs/README-linux.md#build-dependencies
-
-
-  If you really don't need desktop windows, the documentation tells you how
-  to skip this check.
-  https://github.com/libsdl-org/SDL/blob/main/docs/README-cmake.md#cmake-fails-to-build-without-x11-or-wayland-support
-
-
-Call Stack (most recent call first):
-  vendored/SDL/CMakeLists.txt:3800 (SDL_PrintSummary)
-
-
--- Configuring incomplete, errors occurred!
+-- Configuring done (29.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug

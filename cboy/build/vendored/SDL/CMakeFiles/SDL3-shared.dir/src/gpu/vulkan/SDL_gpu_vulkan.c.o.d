@@ -1,0 +1,33 @@
+vendored/SDL/CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o: \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan.c \
+ /usr/include/stdc-predef.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/SDL_internal.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/vulkan.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/vk_platform.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/vulkan_core.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codecs_common.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std_encode.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std_encode.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h264std_decode.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_h265std_decode.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std_decode.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/../vk_video/vulkan_video_codec_av1std.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/khronos/vulkan/vulkan_beta.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_error.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_video.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_close_code.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../SDL_sysgpu.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/SDL_sysvideo.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/SDL_surface_c.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/../../video/SDL_blit.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h
