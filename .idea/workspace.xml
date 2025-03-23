@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dfac6b1-a8c7-49be-bdcb-9431f3302c04" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/cboy/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/3.30.5/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/build/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/bin" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/build/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/vendored/SDL/CMakeFiles/SDL_build_config.h.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/build/vendored/SDL/CMakeFiles/SDL_build_config.h.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/vendored/SDL/CMakeFiles/git-data/grabRef.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/build/vendored/SDL/CMakeFiles/git-data/grabRef.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/vendored/SDL/CMakeFiles/git-data/head-ref" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/build/vendored/SDL/CMakeFiles/git-data/head-ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/vendored/SDL/SDL3Config.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/build/vendored/SDL/SDL3Config.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/build/vendored/SDL/include-revision/SDL3/SDL_revision.h" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/build/vendored/SDL/include-revision/SDL3/SDL_revision.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/CMakeTmp/SDL_detect_arch/bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/SDL_build_config.h.intermediate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/dummy.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/git-data/HEAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/git-data/grabRef.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/git-data/head-ref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/SDL3Config.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/SDL3ConfigVersion.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/cmake-build-debug/vendored/SDL/include-revision/SDL3/SDL_revision.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/default.nix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/opcodes.json" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/opcodes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/shell.nix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cboy/vendored/SDL" beforeDir="false" afterPath="$PROJECT_DIR$/cboy/vendored/SDL" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2ubI9ofVjC9sQGKoVSgBPUCCqN1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/myt/Dokumente/projects/gb-emu",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dfac6b1-a8c7-49be-bdcb-9431f3302c04" name="Changes" comment="" />
+      <created>1742510699671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742510699671</updated>
+      <workItem from="1742510701598" duration="14000" />
+    </task>
+    <servers />
+  </component>
+</project>

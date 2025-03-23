@@ -9,6 +9,17 @@ CMakeFiles/cboy.dir/main.c.o: \
   /usr/lib/clang/19/include/__stddef_null.h \
   /usr/lib/clang/19/include/__stddef_max_align_t.h \
   /usr/lib/clang/19/include/__stddef_offsetof.h \
+  /home/myt/Dokumente/projects/gb-emu/cboy/emulation.h \
+  /usr/lib/clang/19/include/stdbool.h /usr/lib/clang/19/include/stdint.h \
+  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h /usr/include/features-time64.h \
+  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+  /usr/include/stdc-predef.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+  /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
   /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL.h \
   /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_stdinc.h \
   /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_platform_defines.h \
@@ -18,17 +29,7 @@ CMakeFiles/cboy.dir/main.c.o: \
   /usr/lib/clang/19/include/__stdarg_va_list.h \
   /usr/lib/clang/19/include/__stdarg_va_arg.h \
   /usr/lib/clang/19/include/__stdarg___va_copy.h \
-  /usr/lib/clang/19/include/__stdarg_va_copy.h \
-  /usr/lib/clang/19/include/stdint.h /usr/include/stdint.h \
-  /usr/include/bits/libc-header-start.h /usr/include/features.h \
-  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
-  /usr/include/bits/timesize.h /usr/include/stdc-predef.h \
-  /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
-  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
-  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
-  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
-  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
-  /usr/include/bits/stdint-least.h /usr/include/string.h \
+  /usr/lib/clang/19/include/__stdarg_va_copy.h /usr/include/string.h \
   /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/__locale_t.h /usr/include/strings.h \
   /usr/include/wchar.h /usr/include/bits/floatn.h \
@@ -36,7 +37,7 @@ CMakeFiles/cboy.dir/main.c.o: \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h /usr/lib/clang/19/include/inttypes.h \
-  /usr/include/inttypes.h /usr/lib/clang/19/include/stdbool.h \
+  /usr/include/inttypes.h \
   /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_begin_code.h \
   /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_close_code.h \
   /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_assert.h \

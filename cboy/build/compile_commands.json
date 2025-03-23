@@ -12,6 +12,12 @@
   "output": "CMakeFiles/cboy.dir/cJSON.c.o"
 },
 {
+  "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/build",
+  "command": "/usr/bin/cc  -I/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include  -o CMakeFiles/cboy.dir/emulation.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/emulation.c",
+  "file": "/home/myt/Dokumente/projects/gb-emu/cboy/emulation.c",
+  "output": "CMakeFiles/cboy.dir/emulation.c.o"
+},
+{
   "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL",
   "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-config-/build_config -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/libm/e_atan2.c",
   "file": "/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/libm/e_atan2.c",

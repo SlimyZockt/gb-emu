@@ -159,9 +159,9 @@ SDL_uclibc/fast:
 .PHONY : SDL_uclibc/fast
 
 # target to build an object file
-cmake_pch.h.gch:
-	cd /home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f vendored/SDL/CMakeFiles/SDL3-shared.dir/build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
-.PHONY : cmake_pch.h.gch
+cmake_pch.h.pch:
+	cd /home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug && $(MAKE) $(MAKESILENT) -f vendored/SDL/CMakeFiles/SDL3-shared.dir/build.make vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch
+.PHONY : cmake_pch.h.pch
 
 # target to preprocess a source file
 cmake_pch.h.i:
@@ -7768,7 +7768,7 @@ help:
 	@echo "... SDL3-shared"
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
-	@echo "... cmake_pch.h.gch"
+	@echo "... cmake_pch.h.pch"
 	@echo "... cmake_pch.h.i"
 	@echo "... cmake_pch.h.s"
 	@echo "... src/SDL.o"

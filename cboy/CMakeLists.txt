@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(cboy)
+project(cboy LANGUAGES C)
 
 # set the output directory for built object
 # This makes sure that the dynamic library goes into the build directory automatically.
@@ -11,7 +11,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
 
 # Create your game executable target as usual
-add_executable(cboy main.c cJSON.h cJSON.c)
+add_executable(cboy main.c cJSON.c  cJSON.h emulation.c emulation.h)
 
 # Link to the actual SDL3 library.
 target_link_libraries(cboy PRIVATE SDL3::SDL3 )

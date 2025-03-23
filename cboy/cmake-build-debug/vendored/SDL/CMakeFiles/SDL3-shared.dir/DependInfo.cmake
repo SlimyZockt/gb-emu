@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c" "vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch" "gcc" "vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch.d"
-  "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch" "gcc" "vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch.d"
+  "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.c" "vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch" "gcc" "vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch.d"
+  "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch" "gcc" "vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.pch.d"
   "/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/SDL.c" "vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o" "gcc" "vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o.d"
   "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h" "vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o" "gcc" "vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL.c.o.d"
   "/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/SDL_assert.c" "vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o" "gcc" "vendored/SDL/CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o.d"

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cboy.dir/link.d"
   "CMakeFiles/cboy.dir/cJSON.c.o"
   "CMakeFiles/cboy.dir/cJSON.c.o.d"
+  "CMakeFiles/cboy.dir/emulation.c.o"
+  "CMakeFiles/cboy.dir/emulation.c.o.d"
   "CMakeFiles/cboy.dir/main.c.o"
   "CMakeFiles/cboy.dir/main.c.o.d"
   "cboy"

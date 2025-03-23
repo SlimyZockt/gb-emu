@@ -4,6 +4,7 @@ Debug/cboy: \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \
   CMakeFiles/cboy.dir/main.c.o \
   CMakeFiles/cboy.dir/cJSON.c.o \
+  CMakeFiles/cboy.dir/emulation.c.o \
   Debug/libSDL3.so.0.3.0 \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/libgcc.a \
   /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib64/libgcc_s.so \
@@ -37,6 +38,8 @@ Debug/cboy: \
 CMakeFiles/cboy.dir/main.c.o:
 
 CMakeFiles/cboy.dir/cJSON.c.o:
+
+CMakeFiles/cboy.dir/emulation.c.o:
 
 Debug/libSDL3.so.0.3.0:
 
