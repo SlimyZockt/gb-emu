@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c" "CMakeFiles/cboy.dir/cJSON.c.o" "gcc" "CMakeFiles/cboy.dir/cJSON.c.o.d"
-  "/home/myt/Dokumente/projects/gb-emu/cboy/emulation.c" "CMakeFiles/cboy.dir/emulation.c.o" "gcc" "CMakeFiles/cboy.dir/emulation.c.o.d"
-  "/home/myt/Dokumente/projects/gb-emu/cboy/main.c" "CMakeFiles/cboy.dir/main.c.o" "gcc" "CMakeFiles/cboy.dir/main.c.o.d"
+  "/home/myt/Dokumente/projects/gb-emu/cboy/src/cJSON.c" "CMakeFiles/cboy.dir/src/cJSON.c.o" "gcc" "CMakeFiles/cboy.dir/src/cJSON.c.o.d"
+  "/home/myt/Dokumente/projects/gb-emu/cboy/src/emulation.c" "CMakeFiles/cboy.dir/src/emulation.c.o" "gcc" "CMakeFiles/cboy.dir/src/emulation.c.o.d"
+  "/home/myt/Dokumente/projects/gb-emu/cboy/src/main.c" "CMakeFiles/cboy.dir/src/main.c.o" "gcc" "CMakeFiles/cboy.dir/src/main.c.o.d"
   "" "Debug/cboy" "gcc" "CMakeFiles/cboy.dir/link.d"
   )
 

@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include
 
-C_FLAGS = 
+C_FLAGS = -Wall -Wextra -Wunused
 

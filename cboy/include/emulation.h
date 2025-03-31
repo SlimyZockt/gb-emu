@@ -1,0 +1,109 @@
+#ifndef EMULATION_H
+#define EMULATION_H
+#include <stdbool.h>
+#include <stdint.h>
+#include <cJSON.h>
+
+union Register {
+  uint16_t full;
+  uint8_t half[2];
+};
+
+struct Registers {
+  uint8_t A;
+  uint8_t F;
+  union Register BC;
+  union Register DE;
+  union Register HL;
+  uint16_t SP;
+  uint16_t PC;
+
+};
+
+struct MemoryBus {
+  uint8_t *memory;
+};
+
+struct CPU {
+  struct Registers registers;
+  struct MemoryBus bus;
+};
+
+struct RAM {
+  uint16_t size;
+  void *buffer;
+};
+
+struct File {
+  void *data;
+  uint32_t size;
+};
+
+
+enum OperandType {
+  R_NONE = 0,
+  r8 = 1 << 0,
+  r16 = 1 << 1,
+  n8 = 1 << 2,
+  n16 = 1 << 3,
+  e8 = 1 << 4,
+  u3 = 1 << 5,
+  cc = 1 << 6,
+  vec = 1 << 7,
+  R_A = 1 << 8,
+  R_B = 1 << 9,
+  R_C = 1 << 10,
+  R_D = 1 << 11,
+  R_E = 1 << 12,
+  R_H = 1 << 13,
+  R_L = 1 << 14,
+  R_BC = 1 << 15 ,
+  R_DE = 1 << 16 ,
+  R_HL = 1 << 17 
+};
+
+struct Instruction {
+  char *mnemonic;
+  bool *immediate;
+  uint8_t *cycles;
+  uint8_t bytes;
+  uint8_t cycle_count;
+  uint8_t operand_count;
+  struct Operand {
+    enum OperandType type;
+    bool *immediate;
+    uint8_t *bytes;
+    int8_t *increment;
+    void* address;
+  } *operands;
+  struct Flags {
+    char *Z;
+    char *N;
+    char *H;
+    char *C;
+  } *flags;
+  struct Opcode {
+    bool prefixed;
+    uint8_t val;
+    char *id;
+  } *opcode;
+};
+struct OperandTable {
+  char *id;
+  enum OperandType operand;
+};
+
+enum Conditions { Z, NZ, C, NC, EMPTY};
+
+
+/*void log_opcode(const struct Opcode *opcode);*/
+/*void log_instruction(const struct Instruction *instruction);*/
+/*uint8_t get_opcode(struct File *rom, struct Opcode *opcode, uint32_t *read_index);*/
+/*int serialize_instruction(struct Instruction *instruction, cJSON *json);*/
+/*void jump(struct CPU *cpu, const enum Conditions *condition, const uint16_t n16);*/
+int cpu_step(struct CPU *cpu, cJSON *json);
+
+
+#endif
+
+

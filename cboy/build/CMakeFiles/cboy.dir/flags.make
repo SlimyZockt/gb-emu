@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include
+C_INCLUDES = -I/home/myt/Dokumente/projects/gb-emu/cboy/include -I/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include
 
-C_FLAGS = 
+C_FLAGS = -g -Wall -Wextra -Wunused
 

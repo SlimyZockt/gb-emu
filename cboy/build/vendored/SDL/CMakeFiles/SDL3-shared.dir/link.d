@@ -1,4 +1,4 @@
-../../libSDL3.so.0.3.0: \
+../../Debug/libSDL3.so.0.3.0: \
   /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/dynapi/SDL_dynapi.sym \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \

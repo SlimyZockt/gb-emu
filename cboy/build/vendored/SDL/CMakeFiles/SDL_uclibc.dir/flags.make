@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DUSING_GENERATED_CONFIG_H
 
-C_INCLUDES = -I/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-config-/build_config -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include
+C_INCLUDES = -I/home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-config-debug/build_config -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include
 
-C_FLAGS = -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
+C_FLAGS = -g -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
 

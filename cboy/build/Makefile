@@ -168,77 +168,77 @@ SDL_uclibc/fast:
 	$(MAKE) $(MAKESILENT) -f vendored/SDL/CMakeFiles/SDL_uclibc.dir/build.make vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
-cJSON.o: cJSON.c.o
-.PHONY : cJSON.o
+src/cJSON.o: src/cJSON.c.o
+.PHONY : src/cJSON.o
 
 # target to build an object file
-cJSON.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/cJSON.c.o
-.PHONY : cJSON.c.o
+src/cJSON.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/cJSON.c.o
+.PHONY : src/cJSON.c.o
 
-cJSON.i: cJSON.c.i
-.PHONY : cJSON.i
+src/cJSON.i: src/cJSON.c.i
+.PHONY : src/cJSON.i
 
 # target to preprocess a source file
-cJSON.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/cJSON.c.i
-.PHONY : cJSON.c.i
+src/cJSON.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/cJSON.c.i
+.PHONY : src/cJSON.c.i
 
-cJSON.s: cJSON.c.s
-.PHONY : cJSON.s
+src/cJSON.s: src/cJSON.c.s
+.PHONY : src/cJSON.s
 
 # target to generate assembly for a file
-cJSON.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/cJSON.c.s
-.PHONY : cJSON.c.s
+src/cJSON.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/cJSON.c.s
+.PHONY : src/cJSON.c.s
 
-emulation.o: emulation.c.o
-.PHONY : emulation.o
+src/emulation.o: src/emulation.c.o
+.PHONY : src/emulation.o
 
 # target to build an object file
-emulation.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/emulation.c.o
-.PHONY : emulation.c.o
+src/emulation.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/emulation.c.o
+.PHONY : src/emulation.c.o
 
-emulation.i: emulation.c.i
-.PHONY : emulation.i
+src/emulation.i: src/emulation.c.i
+.PHONY : src/emulation.i
 
 # target to preprocess a source file
-emulation.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/emulation.c.i
-.PHONY : emulation.c.i
+src/emulation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/emulation.c.i
+.PHONY : src/emulation.c.i
 
-emulation.s: emulation.c.s
-.PHONY : emulation.s
+src/emulation.s: src/emulation.c.s
+.PHONY : src/emulation.s
 
 # target to generate assembly for a file
-emulation.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/emulation.c.s
-.PHONY : emulation.c.s
+src/emulation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/emulation.c.s
+.PHONY : src/emulation.c.s
 
-main.o: main.c.o
-.PHONY : main.o
+src/main.o: src/main.c.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/main.c.o
-.PHONY : main.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/main.c.i
-.PHONY : main.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/main.c.s
-.PHONY : main.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -252,15 +252,15 @@ help:
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... cboy"
-	@echo "... cJSON.o"
-	@echo "... cJSON.i"
-	@echo "... cJSON.s"
-	@echo "... emulation.o"
-	@echo "... emulation.i"
-	@echo "... emulation.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/cJSON.o"
+	@echo "... src/cJSON.i"
+	@echo "... src/cJSON.s"
+	@echo "... src/emulation.o"
+	@echo "... src/emulation.i"
+	@echo "... src/emulation.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

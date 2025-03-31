@@ -3,7 +3,7 @@ vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch: \
  /usr/include/stdc-predef.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/SDL_internal.h \
- /home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-config-/build_config/SDL_build_config.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_platform_defines.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/dynapi/SDL_dynapi.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \

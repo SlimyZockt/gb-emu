@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang
 C_DEFINES = 
 
-C_INCLUDES = -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include
+C_INCLUDES = -I/home/myt/Dokumente/projects/gb-emu/cboy/include -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include
 
-C_FLAGS = -g -fcolor-diagnostics
+C_FLAGS = -g -fcolor-diagnostics -Wall -Wextra -Wunused
 

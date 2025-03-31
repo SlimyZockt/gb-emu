@@ -64,14 +64,16 @@ CMAKE_BINARY_DIR = /home/myt/Dokumente/projects/gb-emu/cboy/build
 
 # The main recursive "all" target.
 all: CMakeFiles/cboy.dir/all
+all: vendored/SDL/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/cboy.dir/codegen
+codegen: vendored/SDL/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: vendored/SDL/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.

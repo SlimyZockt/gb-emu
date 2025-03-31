@@ -2,7 +2,7 @@ vendored/SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o: \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/libm/e_log.c \
  /usr/include/stdc-predef.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/SDL_internal.h \
- /home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-config-/build_config/SDL_build_config.h \
+ /home/myt/Dokumente/projects/gb-emu/cboy/build/vendored/SDL/include-config-debug/build_config/SDL_build_config.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_platform_defines.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/dynapi/SDL_dynapi.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/src/dynapi/SDL_dynapi_overrides.h \

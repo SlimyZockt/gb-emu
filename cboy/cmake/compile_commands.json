@@ -1,15 +1,21 @@
 [
 {
   "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/cmake",
-  "command": "/usr/bin/cc  -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include  -o CMakeFiles/cboy.dir/main.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/main.c",
+  "command": "/usr/bin/cc  -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -Wall -Wextra -Wunused -o CMakeFiles/cboy.dir/main.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/main.c",
   "file": "/home/myt/Dokumente/projects/gb-emu/cboy/main.c",
   "output": "CMakeFiles/cboy.dir/main.c.o"
 },
 {
   "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/cmake",
-  "command": "/usr/bin/cc  -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include  -o CMakeFiles/cboy.dir/cJSON.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c",
+  "command": "/usr/bin/cc  -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -Wall -Wextra -Wunused -o CMakeFiles/cboy.dir/cJSON.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c",
   "file": "/home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c",
   "output": "CMakeFiles/cboy.dir/cJSON.c.o"
+},
+{
+  "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/cmake",
+  "command": "/usr/bin/cc  -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -Wall -Wextra -Wunused -o CMakeFiles/cboy.dir/emulation.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/emulation.c",
+  "file": "/home/myt/Dokumente/projects/gb-emu/cboy/emulation.c",
+  "output": "CMakeFiles/cboy.dir/emulation.c.o"
 },
 {
   "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/cmake/vendored/SDL",

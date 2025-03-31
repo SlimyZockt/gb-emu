@@ -85,7 +85,6 @@ CMakeFiles/cboy.dir/main.c.o: \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_tray.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_version.h \
  /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_oldnames.h \
- /home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include/SDL3/SDL_main.h \
  /usr/include/assert.h /usr/include/stdio.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \

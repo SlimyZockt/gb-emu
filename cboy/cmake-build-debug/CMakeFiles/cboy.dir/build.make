@@ -72,60 +72,60 @@ include CMakeFiles/cboy.dir/flags.make
 CMakeFiles/cboy.dir/codegen:
 .PHONY : CMakeFiles/cboy.dir/codegen
 
-CMakeFiles/cboy.dir/main.c.o: CMakeFiles/cboy.dir/flags.make
-CMakeFiles/cboy.dir/main.c.o: /home/myt/Dokumente/projects/gb-emu/cboy/main.c
-CMakeFiles/cboy.dir/main.c.o: CMakeFiles/cboy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cboy.dir/main.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cboy.dir/main.c.o -MF CMakeFiles/cboy.dir/main.c.o.d -o CMakeFiles/cboy.dir/main.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/main.c
+CMakeFiles/cboy.dir/src/main.c.o: CMakeFiles/cboy.dir/flags.make
+CMakeFiles/cboy.dir/src/main.c.o: /home/myt/Dokumente/projects/gb-emu/cboy/src/main.c
+CMakeFiles/cboy.dir/src/main.c.o: CMakeFiles/cboy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cboy.dir/src/main.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cboy.dir/src/main.c.o -MF CMakeFiles/cboy.dir/src/main.c.o.d -o CMakeFiles/cboy.dir/src/main.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/src/main.c
 
-CMakeFiles/cboy.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cboy.dir/main.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/myt/Dokumente/projects/gb-emu/cboy/main.c > CMakeFiles/cboy.dir/main.c.i
+CMakeFiles/cboy.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cboy.dir/src/main.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/myt/Dokumente/projects/gb-emu/cboy/src/main.c > CMakeFiles/cboy.dir/src/main.c.i
 
-CMakeFiles/cboy.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cboy.dir/main.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/myt/Dokumente/projects/gb-emu/cboy/main.c -o CMakeFiles/cboy.dir/main.c.s
+CMakeFiles/cboy.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cboy.dir/src/main.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/myt/Dokumente/projects/gb-emu/cboy/src/main.c -o CMakeFiles/cboy.dir/src/main.c.s
 
-CMakeFiles/cboy.dir/cJSON.c.o: CMakeFiles/cboy.dir/flags.make
-CMakeFiles/cboy.dir/cJSON.c.o: /home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c
-CMakeFiles/cboy.dir/cJSON.c.o: CMakeFiles/cboy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cboy.dir/cJSON.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cboy.dir/cJSON.c.o -MF CMakeFiles/cboy.dir/cJSON.c.o.d -o CMakeFiles/cboy.dir/cJSON.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c
+CMakeFiles/cboy.dir/src/emulation.c.o: CMakeFiles/cboy.dir/flags.make
+CMakeFiles/cboy.dir/src/emulation.c.o: /home/myt/Dokumente/projects/gb-emu/cboy/src/emulation.c
+CMakeFiles/cboy.dir/src/emulation.c.o: CMakeFiles/cboy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cboy.dir/src/emulation.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cboy.dir/src/emulation.c.o -MF CMakeFiles/cboy.dir/src/emulation.c.o.d -o CMakeFiles/cboy.dir/src/emulation.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/src/emulation.c
 
-CMakeFiles/cboy.dir/cJSON.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cboy.dir/cJSON.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c > CMakeFiles/cboy.dir/cJSON.c.i
+CMakeFiles/cboy.dir/src/emulation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cboy.dir/src/emulation.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/myt/Dokumente/projects/gb-emu/cboy/src/emulation.c > CMakeFiles/cboy.dir/src/emulation.c.i
 
-CMakeFiles/cboy.dir/cJSON.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cboy.dir/cJSON.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c -o CMakeFiles/cboy.dir/cJSON.c.s
+CMakeFiles/cboy.dir/src/emulation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cboy.dir/src/emulation.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/myt/Dokumente/projects/gb-emu/cboy/src/emulation.c -o CMakeFiles/cboy.dir/src/emulation.c.s
 
-CMakeFiles/cboy.dir/emulation.c.o: CMakeFiles/cboy.dir/flags.make
-CMakeFiles/cboy.dir/emulation.c.o: /home/myt/Dokumente/projects/gb-emu/cboy/emulation.c
-CMakeFiles/cboy.dir/emulation.c.o: CMakeFiles/cboy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cboy.dir/emulation.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cboy.dir/emulation.c.o -MF CMakeFiles/cboy.dir/emulation.c.o.d -o CMakeFiles/cboy.dir/emulation.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/emulation.c
+CMakeFiles/cboy.dir/src/cJSON.c.o: CMakeFiles/cboy.dir/flags.make
+CMakeFiles/cboy.dir/src/cJSON.c.o: /home/myt/Dokumente/projects/gb-emu/cboy/src/cJSON.c
+CMakeFiles/cboy.dir/src/cJSON.c.o: CMakeFiles/cboy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cboy.dir/src/cJSON.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cboy.dir/src/cJSON.c.o -MF CMakeFiles/cboy.dir/src/cJSON.c.o.d -o CMakeFiles/cboy.dir/src/cJSON.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/src/cJSON.c
 
-CMakeFiles/cboy.dir/emulation.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cboy.dir/emulation.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/myt/Dokumente/projects/gb-emu/cboy/emulation.c > CMakeFiles/cboy.dir/emulation.c.i
+CMakeFiles/cboy.dir/src/cJSON.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cboy.dir/src/cJSON.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/myt/Dokumente/projects/gb-emu/cboy/src/cJSON.c > CMakeFiles/cboy.dir/src/cJSON.c.i
 
-CMakeFiles/cboy.dir/emulation.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cboy.dir/emulation.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/myt/Dokumente/projects/gb-emu/cboy/emulation.c -o CMakeFiles/cboy.dir/emulation.c.s
+CMakeFiles/cboy.dir/src/cJSON.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cboy.dir/src/cJSON.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/myt/Dokumente/projects/gb-emu/cboy/src/cJSON.c -o CMakeFiles/cboy.dir/src/cJSON.c.s
 
 # Object files for target cboy
 cboy_OBJECTS = \
-"CMakeFiles/cboy.dir/main.c.o" \
-"CMakeFiles/cboy.dir/cJSON.c.o" \
-"CMakeFiles/cboy.dir/emulation.c.o"
+"CMakeFiles/cboy.dir/src/main.c.o" \
+"CMakeFiles/cboy.dir/src/emulation.c.o" \
+"CMakeFiles/cboy.dir/src/cJSON.c.o"
 
 # External object files for target cboy
 cboy_EXTERNAL_OBJECTS =
 
-Debug/cboy: CMakeFiles/cboy.dir/main.c.o
-Debug/cboy: CMakeFiles/cboy.dir/cJSON.c.o
-Debug/cboy: CMakeFiles/cboy.dir/emulation.c.o
+Debug/cboy: CMakeFiles/cboy.dir/src/main.c.o
+Debug/cboy: CMakeFiles/cboy.dir/src/emulation.c.o
+Debug/cboy: CMakeFiles/cboy.dir/src/cJSON.c.o
 Debug/cboy: CMakeFiles/cboy.dir/build.make
 Debug/cboy: CMakeFiles/cboy.dir/compiler_depend.ts
 Debug/cboy: Debug/libSDL3.so.0.3.0

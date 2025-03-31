@@ -1,11 +1,11 @@
-cboy: \
+Debug/cboy: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \
   CMakeFiles/cboy.dir/main.c.o \
   CMakeFiles/cboy.dir/cJSON.c.o \
   CMakeFiles/cboy.dir/emulation.c.o \
-  libSDL3.so.0.3.0 \
+  Debug/libSDL3.so.0.3.0 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libgcc_s.so \
@@ -41,7 +41,7 @@ CMakeFiles/cboy.dir/cJSON.c.o:
 
 CMakeFiles/cboy.dir/emulation.c.o:
 
-libSDL3.so.0.3.0:
+Debug/libSDL3.so.0.3.0:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/libgcc.a:
 

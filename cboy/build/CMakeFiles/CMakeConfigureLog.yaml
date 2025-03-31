@@ -7541,3 +7541,931 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_stdc89"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-3JdaN2"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-3JdaN2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_stdc89"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-3JdaN2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82966/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_82966.dir/build.make CMakeFiles/cmTC_82966.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-3JdaN2'
+        Building C object CMakeFiles/cmTC_82966.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_stdc89  -std=c89 -o CMakeFiles/cmTC_82966.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-3JdaN2/src.c
+        Linking C executable cmTC_82966
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82966.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_82966.dir/src.c.o -o cmTC_82966
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-3JdaN2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_pedantic"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KkTsBs"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KkTsBs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_pedantic"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KkTsBs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_60d06/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_60d06.dir/build.make CMakeFiles/cmTC_60d06.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KkTsBs'
+        Building C object CMakeFiles/cmTC_60d06.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_pedantic  -std=c89    -pedantic -o CMakeFiles/cmTC_60d06.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KkTsBs/src.c
+        Linking C executable cmTC_60d06
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60d06.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89  CMakeFiles/cmTC_60d06.dir/src.c.o -o cmTC_60d06
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KkTsBs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wall"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-HqOMxU"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-HqOMxU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wall"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-HqOMxU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3ad17/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3ad17.dir/build.make CMakeFiles/cmTC_3ad17.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-HqOMxU'
+        Building C object CMakeFiles/cmTC_3ad17.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wall  -std=c89 -pedantic    -Wall -o CMakeFiles/cmTC_3ad17.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-HqOMxU/src.c
+        Linking C executable cmTC_3ad17
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ad17.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic  CMakeFiles/cmTC_3ad17.dir/src.c.o -o cmTC_3ad17
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-HqOMxU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wextra"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-vnb4uO"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-vnb4uO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-vnb4uO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e32b0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e32b0.dir/build.make CMakeFiles/cmTC_e32b0.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-vnb4uO'
+        Building C object CMakeFiles/cmTC_e32b0.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wextra  -std=c89 -pedantic -Wall    -Wextra -o CMakeFiles/cmTC_e32b0.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-vnb4uO/src.c
+        Linking C executable cmTC_e32b0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e32b0.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall  CMakeFiles/cmTC_e32b0.dir/src.c.o -o cmTC_e32b0
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-vnb4uO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Werror"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-DZyqdB"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-DZyqdB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Werror"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-DZyqdB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_752b5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_752b5.dir/build.make CMakeFiles/cmTC_752b5.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-DZyqdB'
+        Building C object CMakeFiles/cmTC_752b5.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Werror  -std=c89 -pedantic -Wall -Wextra    -Werror -o CMakeFiles/cmTC_752b5.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-DZyqdB/src.c
+        Linking C executable cmTC_752b5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_752b5.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra  CMakeFiles/cmTC_752b5.dir/src.c.o -o cmTC_752b5
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-DZyqdB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wstrictprototypes"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-iuPYWI"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-iuPYWI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wstrictprototypes"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-iuPYWI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1f7c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c1f7c.dir/build.make CMakeFiles/cmTC_c1f7c.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-iuPYWI'
+        Building C object CMakeFiles/cmTC_c1f7c.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wstrictprototypes  -std=c89 -pedantic -Wall -Wextra -Werror    -Wstrict-prototypes -o CMakeFiles/cmTC_c1f7c.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-iuPYWI/src.c
+        Linking C executable cmTC_c1f7c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1f7c.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror  CMakeFiles/cmTC_c1f7c.dir/src.c.o -o cmTC_c1f7c
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-iuPYWI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wwritestrings"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-o7XUs0"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-o7XUs0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wwritestrings"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-o7XUs0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_60167/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_60167.dir/build.make CMakeFiles/cmTC_60167.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-o7XUs0'
+        Building C object CMakeFiles/cmTC_60167.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wwritestrings  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes    -Wwrite-strings -o CMakeFiles/cmTC_60167.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-o7XUs0/src.c
+        Linking C executable cmTC_60167
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60167.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes  CMakeFiles/cmTC_60167.dir/src.c.o -o cmTC_60167
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-o7XUs0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wshadow"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4NTCB5"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4NTCB5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wshadow"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4NTCB5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_03d19/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_03d19.dir/build.make CMakeFiles/cmTC_03d19.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4NTCB5'
+        Building C object CMakeFiles/cmTC_03d19.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wshadow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings    -Wshadow -o CMakeFiles/cmTC_03d19.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4NTCB5/src.c
+        Linking C executable cmTC_03d19
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03d19.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings  CMakeFiles/cmTC_03d19.dir/src.c.o -o cmTC_03d19
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4NTCB5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Winitself"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Mbx9Qz"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Mbx9Qz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Winitself"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Mbx9Qz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63142/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_63142.dir/build.make CMakeFiles/cmTC_63142.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Mbx9Qz'
+        Building C object CMakeFiles/cmTC_63142.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Winitself  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow    -Winit-self -o CMakeFiles/cmTC_63142.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Mbx9Qz/src.c
+        Linking C executable cmTC_63142
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63142.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow  CMakeFiles/cmTC_63142.dir/src.c.o -o cmTC_63142
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Mbx9Qz'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcastalign"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-NdSP59"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-NdSP59"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcastalign"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-NdSP59'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_07c50/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_07c50.dir/build.make CMakeFiles/cmTC_07c50.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-NdSP59'
+        Building C object CMakeFiles/cmTC_07c50.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wcastalign  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self    -Wcast-align -o CMakeFiles/cmTC_07c50.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-NdSP59/src.c
+        Linking C executable cmTC_07c50
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07c50.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self  CMakeFiles/cmTC_07c50.dir/src.c.o -o cmTC_07c50
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-NdSP59'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wformat2"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-56LsQK"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-56LsQK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wformat2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-56LsQK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a4160/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a4160.dir/build.make CMakeFiles/cmTC_a4160.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-56LsQK'
+        Building C object CMakeFiles/cmTC_a4160.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wformat2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align    -Wformat=2 -o CMakeFiles/cmTC_a4160.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-56LsQK/src.c
+        Linking C executable cmTC_a4160
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4160.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align  CMakeFiles/cmTC_a4160.dir/src.c.o -o cmTC_a4160
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-56LsQK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wmissingprototypes"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-daIotn"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-daIotn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wmissingprototypes"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-daIotn'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8d1b2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8d1b2.dir/build.make CMakeFiles/cmTC_8d1b2.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-daIotn'
+        Building C object CMakeFiles/cmTC_8d1b2.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wmissingprototypes  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2    -Wmissing-prototypes -o CMakeFiles/cmTC_8d1b2.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-daIotn/src.c
+        Linking C executable cmTC_8d1b2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d1b2.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2  CMakeFiles/cmTC_8d1b2.dir/src.c.o -o cmTC_8d1b2
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-daIotn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wstrictoverflow2"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KEc1kC"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KEc1kC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wstrictoverflow2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KEc1kC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c3f8b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c3f8b.dir/build.make CMakeFiles/cmTC_c3f8b.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KEc1kC'
+        Building C object CMakeFiles/cmTC_c3f8b.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wstrictoverflow2  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes    -Wstrict-overflow=2 -o CMakeFiles/cmTC_c3f8b.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KEc1kC/src.c
+        Linking C executable cmTC_c3f8b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f8b.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes  CMakeFiles/cmTC_c3f8b.dir/src.c.o -o cmTC_c3f8b
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-KEc1kC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcastqual"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-lbVzAq"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-lbVzAq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcastqual"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-lbVzAq'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_92510/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_92510.dir/build.make CMakeFiles/cmTC_92510.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-lbVzAq'
+        Building C object CMakeFiles/cmTC_92510.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wcastqual  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2    -Wcast-qual -o CMakeFiles/cmTC_92510.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-lbVzAq/src.c
+        Linking C executable cmTC_92510
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92510.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2  CMakeFiles/cmTC_92510.dir/src.c.o -o cmTC_92510
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-lbVzAq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wundef"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-eWOLQE"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-eWOLQE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wundef"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-eWOLQE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf7a7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cf7a7.dir/build.make CMakeFiles/cmTC_cf7a7.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-eWOLQE'
+        Building C object CMakeFiles/cmTC_cf7a7.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wundef  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual    -Wundef -o CMakeFiles/cmTC_cf7a7.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-eWOLQE/src.c
+        Linking C executable cmTC_cf7a7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf7a7.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual  CMakeFiles/cmTC_cf7a7.dir/src.c.o -o cmTC_cf7a7
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-eWOLQE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wswitchdefault"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8m3PZ6"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8m3PZ6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wswitchdefault"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8m3PZ6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ebe73/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ebe73.dir/build.make CMakeFiles/cmTC_ebe73.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8m3PZ6'
+        Building C object CMakeFiles/cmTC_ebe73.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wswitchdefault  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef    -Wswitch-default -o CMakeFiles/cmTC_ebe73.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8m3PZ6/src.c
+        Linking C executable cmTC_ebe73
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebe73.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef  CMakeFiles/cmTC_ebe73.dir/src.c.o -o cmTC_ebe73
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8m3PZ6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wconversion"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Bd9Dx0"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Bd9Dx0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wconversion"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Bd9Dx0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3fbce/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3fbce.dir/build.make CMakeFiles/cmTC_3fbce.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Bd9Dx0'
+        Building C object CMakeFiles/cmTC_3fbce.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wconversion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default    -Wconversion -o CMakeFiles/cmTC_3fbce.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Bd9Dx0/src.c
+        Linking C executable cmTC_3fbce
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fbce.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default  CMakeFiles/cmTC_3fbce.dir/src.c.o -o cmTC_3fbce
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-Bd9Dx0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wccompat"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-El2D5V"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-El2D5V"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wccompat"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-El2D5V'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7ae12/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7ae12.dir/build.make CMakeFiles/cmTC_7ae12.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-El2D5V'
+        Building C object CMakeFiles/cmTC_7ae12.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wccompat  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion    -Wc++-compat -o CMakeFiles/cmTC_7ae12.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-El2D5V/src.c
+        Linking C executable cmTC_7ae12
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ae12.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion  CMakeFiles/cmTC_7ae12.dir/src.c.o -o cmTC_7ae12
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-El2D5V'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_fstackprotectorstrong"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-MiQGtA"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-MiQGtA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_fstackprotectorstrong"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-MiQGtA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b8d7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4b8d7.dir/build.make CMakeFiles/cmTC_4b8d7.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-MiQGtA'
+        Building C object CMakeFiles/cmTC_4b8d7.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_fstackprotectorstrong  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat    -fstack-protector-strong -o CMakeFiles/cmTC_4b8d7.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-MiQGtA/src.c
+        Linking C executable cmTC_4b8d7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b8d7.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat  CMakeFiles/cmTC_4b8d7.dir/src.c.o -o cmTC_4b8d7
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-MiQGtA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wcomma"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-B5kdPc"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-B5kdPc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wcomma"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-B5kdPc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_16eb9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_16eb9.dir/build.make CMakeFiles/cmTC_16eb9.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-B5kdPc'
+        Building C object CMakeFiles/cmTC_16eb9.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wcomma  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wcomma -o CMakeFiles/cmTC_16eb9.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-B5kdPc/src.c
+        cc: error: unrecognized command-line option '-Wcomma'; did you mean '-Wcomment'?
+        make[1]: *** [CMakeFiles/cmTC_16eb9.dir/build.make:81: CMakeFiles/cmTC_16eb9.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-B5kdPc'
+        make: *** [Makefile:134: cmTC_16eb9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wdoublepromotion"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-YnjPa0"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-YnjPa0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wdoublepromotion"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-YnjPa0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_09337/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_09337.dir/build.make CMakeFiles/cmTC_09337.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-YnjPa0'
+        Building C object CMakeFiles/cmTC_09337.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wdoublepromotion  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wdouble-promotion -o CMakeFiles/cmTC_09337.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-YnjPa0/src.c
+        Linking C executable cmTC_09337
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09337.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong  CMakeFiles/cmTC_09337.dir/src.c.o -o cmTC_09337
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-YnjPa0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wparentheses"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-tTwDs1"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-tTwDs1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wparentheses"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-tTwDs1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_683ac/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_683ac.dir/build.make CMakeFiles/cmTC_683ac.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-tTwDs1'
+        Building C object CMakeFiles/cmTC_683ac.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wparentheses  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion    -Wparentheses -o CMakeFiles/cmTC_683ac.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-tTwDs1/src.c
+        Linking C executable cmTC_683ac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_683ac.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion  CMakeFiles/cmTC_683ac.dir/src.c.o -o cmTC_683ac
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-tTwDs1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wformatoverflow"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4C8AYY"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4C8AYY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wformatoverflow"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4C8AYY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63f00/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_63f00.dir/build.make CMakeFiles/cmTC_63f00.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4C8AYY'
+        Building C object CMakeFiles/cmTC_63f00.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wformatoverflow  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses    -Wformat-overflow -o CMakeFiles/cmTC_63f00.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4C8AYY/src.c
+        Linking C executable cmTC_63f00
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63f00.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses  CMakeFiles/cmTC_63f00.dir/src.c.o -o cmTC_63f00
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-4C8AYY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wunusedmacros"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-BlEsdF"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-BlEsdF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wunusedmacros"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-BlEsdF'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1bc42/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1bc42.dir/build.make CMakeFiles/cmTC_1bc42.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-BlEsdF'
+        Building C object CMakeFiles/cmTC_1bc42.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wunusedmacros  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow    -Wunused-macros -o CMakeFiles/cmTC_1bc42.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-BlEsdF/src.c
+        Linking C executable cmTC_1bc42
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bc42.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow  CMakeFiles/cmTC_1bc42.dir/src.c.o -o cmTC_1bc42
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-BlEsdF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wmissingvariabledeclarations"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-TP0U1n"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-TP0U1n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wmissingvariabledeclarations"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-TP0U1n'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a634c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a634c.dir/build.make CMakeFiles/cmTC_a634c.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-TP0U1n'
+        Building C object CMakeFiles/cmTC_a634c.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wmissing-variable-declarations -o CMakeFiles/cmTC_a634c.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-TP0U1n/src.c
+        Linking C executable cmTC_a634c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a634c.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros  CMakeFiles/cmTC_a634c.dir/src.c.o -o cmTC_a634c
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-TP0U1n'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wusedbutmarkedunused"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8kV7F3"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8kV7F3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wusedbutmarkedunused"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8kV7F3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bd1aa/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bd1aa.dir/build.make CMakeFiles/cmTC_bd1aa.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8kV7F3'
+        Building C object CMakeFiles/cmTC_bd1aa.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations    -Wused-but-marked-unused -o CMakeFiles/cmTC_bd1aa.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8kV7F3/src.c
+        cc: error: unrecognized command-line option '-Wused-but-marked-unused'
+        make[1]: *** [CMakeFiles/cmTC_bd1aa.dir/build.make:81: CMakeFiles/cmTC_bd1aa.dir/src.c.o] Error 1
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-8kV7F3'
+        make: *** [Makefile:134: cmTC_bd1aa/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_Wswitchenum"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-fJ2ZcG"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-fJ2ZcG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_Wswitchenum"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-fJ2ZcG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_248ca/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_248ca.dir/build.make CMakeFiles/cmTC_248ca.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-fJ2ZcG'
+        Building C object CMakeFiles/cmTC_248ca.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_Wswitchenum  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations    -Wswitch-enum -o CMakeFiles/cmTC_248ca.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-fJ2ZcG/src.c
+        Linking C executable cmTC_248ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_248ca.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations  CMakeFiles/cmTC_248ca.dir/src.c.o -o cmTC_248ca
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-fJ2ZcG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "vendored/cJSON/CMakeLists.txt:102 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test FLAG_SUPPORTED_fvisibilityhidden"
+    directories:
+      source: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-V4Ubmq"
+      binary: "/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-V4Ubmq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wswitch-enum"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "FLAG_SUPPORTED_fvisibilityhidden"
+      cached: true
+      stdout: |
+        Change Dir: '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-V4Ubmq'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37e37/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_37e37.dir/build.make CMakeFiles/cmTC_37e37.dir/build
+        make[1]: Entering directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-V4Ubmq'
+        Building C object CMakeFiles/cmTC_37e37.dir/src.c.o
+        /usr/bin/cc -DFLAG_SUPPORTED_fvisibilityhidden  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wswitch-enum    -fvisibility=hidden -o CMakeFiles/cmTC_37e37.dir/src.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-V4Ubmq/src.c
+        Linking C executable cmTC_37e37
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37e37.dir/link.txt --verbose=1
+        /usr/bin/cc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wmissing-variable-declarations -Wswitch-enum  CMakeFiles/cmTC_37e37.dir/src.c.o -o cmTC_37e37
+        make[1]: Leaving directory '/home/myt/Dokumente/projects/gb-emu/cboy/build/CMakeFiles/CMakeScratch/TryCompile-V4Ubmq'
+        
+      exitCode: 0
+...

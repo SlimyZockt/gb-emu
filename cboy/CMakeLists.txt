@@ -8,10 +8,14 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # This assumes the SDL source is available in vendored/SDL
-add_subdirectory(vendored/SDL EXCLUDE_FROM_ALL)
+add_subdirectory(vendored/SDL)
 
 # Create your game executable target as usual
-add_executable(cboy main.c cJSON.c  cJSON.h emulation.c emulation.h)
+add_executable(cboy src/main.c src/emulation.c src/cJSON.c)
+target_include_directories(cboy PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include/" )
+target_compile_options(cboy PRIVATE -Wall -Wextra -Wunused)
 
 # Link to the actual SDL3 library.
 target_link_libraries(cboy PRIVATE SDL3::SDL3 )
+
+   

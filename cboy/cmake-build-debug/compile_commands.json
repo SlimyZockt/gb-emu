@@ -1,21 +1,21 @@
 [
 {
   "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug",
-  "command": "/usr/bin/clang  -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -g -fcolor-diagnostics -o CMakeFiles/cboy.dir/main.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/main.c",
-  "file": "/home/myt/Dokumente/projects/gb-emu/cboy/main.c",
-  "output": "CMakeFiles/cboy.dir/main.c.o"
+  "command": "/usr/bin/clang  -I/home/myt/Dokumente/projects/gb-emu/cboy/include -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -g -fcolor-diagnostics -Wall -Wextra -Wunused -o CMakeFiles/cboy.dir/src/main.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/src/main.c",
+  "file": "/home/myt/Dokumente/projects/gb-emu/cboy/src/main.c",
+  "output": "CMakeFiles/cboy.dir/src/main.c.o"
 },
 {
   "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug",
-  "command": "/usr/bin/clang  -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -g -fcolor-diagnostics -o CMakeFiles/cboy.dir/cJSON.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c",
-  "file": "/home/myt/Dokumente/projects/gb-emu/cboy/cJSON.c",
-  "output": "CMakeFiles/cboy.dir/cJSON.c.o"
+  "command": "/usr/bin/clang  -I/home/myt/Dokumente/projects/gb-emu/cboy/include -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -g -fcolor-diagnostics -Wall -Wextra -Wunused -o CMakeFiles/cboy.dir/src/emulation.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/src/emulation.c",
+  "file": "/home/myt/Dokumente/projects/gb-emu/cboy/src/emulation.c",
+  "output": "CMakeFiles/cboy.dir/src/emulation.c.o"
 },
 {
   "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug",
-  "command": "/usr/bin/clang  -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -g -fcolor-diagnostics -o CMakeFiles/cboy.dir/emulation.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/emulation.c",
-  "file": "/home/myt/Dokumente/projects/gb-emu/cboy/emulation.c",
-  "output": "CMakeFiles/cboy.dir/emulation.c.o"
+  "command": "/usr/bin/clang  -I/home/myt/Dokumente/projects/gb-emu/cboy/include -I/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL/include-revision -I/home/myt/Dokumente/projects/gb-emu/cboy/vendored/SDL/include -g -fcolor-diagnostics -Wall -Wextra -Wunused -o CMakeFiles/cboy.dir/src/cJSON.c.o -c /home/myt/Dokumente/projects/gb-emu/cboy/src/cJSON.c",
+  "file": "/home/myt/Dokumente/projects/gb-emu/cboy/src/cJSON.c",
+  "output": "CMakeFiles/cboy.dir/src/cJSON.c.o"
 },
 {
   "directory": "/home/myt/Dokumente/projects/gb-emu/cboy/cmake-build-debug/vendored/SDL",

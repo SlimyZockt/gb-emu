@@ -192,6 +192,30 @@ cJSON.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/cJSON.c.s
 .PHONY : cJSON.c.s
 
+emulation.o: emulation.c.o
+.PHONY : emulation.o
+
+# target to build an object file
+emulation.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/emulation.c.o
+.PHONY : emulation.c.o
+
+emulation.i: emulation.c.i
+.PHONY : emulation.i
+
+# target to preprocess a source file
+emulation.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/emulation.c.i
+.PHONY : emulation.c.i
+
+emulation.s: emulation.c.s
+.PHONY : emulation.s
+
+# target to generate assembly for a file
+emulation.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cboy.dir/build.make CMakeFiles/cboy.dir/emulation.c.s
+.PHONY : emulation.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -231,6 +255,9 @@ help:
 	@echo "... cJSON.o"
 	@echo "... cJSON.i"
 	@echo "... cJSON.s"
+	@echo "... emulation.o"
+	@echo "... emulation.i"
+	@echo "... emulation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
