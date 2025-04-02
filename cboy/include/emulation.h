@@ -1,8 +1,8 @@
 #ifndef EMULATION_H
 #define EMULATION_H
+#include <cJSON.h>
 #include <stdbool.h>
 #include <stdint.h>
-#include <cJSON.h>
 
 union Register {
   uint16_t full;
@@ -17,7 +17,6 @@ struct Registers {
   union Register HL;
   uint16_t SP;
   uint16_t PC;
-
 };
 
 struct MemoryBus {
@@ -39,9 +38,8 @@ struct File {
   uint32_t size;
 };
 
-
 enum OperandType {
-  R_NONE = 0,
+  NONE = 0,
   r8 = 1 << 0,
   r16 = 1 << 1,
   n8 = 1 << 2,
@@ -57,9 +55,13 @@ enum OperandType {
   R_E = 1 << 12,
   R_H = 1 << 13,
   R_L = 1 << 14,
-  R_BC = 1 << 15 ,
-  R_DE = 1 << 16 ,
-  R_HL = 1 << 17 
+  R_BC = 1 << 15,
+  R_DE = 1 << 16,
+  R_HL = 1 << 17,
+  Z = 1 << 18,
+  NZ = 1 << 19,
+  C = 1 << 20,
+  NC = 1 << 21
 };
 
 struct Instruction {
@@ -74,7 +76,7 @@ struct Instruction {
     bool *immediate;
     uint8_t *bytes;
     int8_t *increment;
-    void* address;
+    void *address;
   } *operands;
   struct Flags {
     char *Z;
@@ -93,17 +95,13 @@ struct OperandTable {
   enum OperandType operand;
 };
 
-enum Conditions { Z, NZ, C, NC, EMPTY};
-
-
 /*void log_opcode(const struct Opcode *opcode);*/
 /*void log_instruction(const struct Instruction *instruction);*/
-/*uint8_t get_opcode(struct File *rom, struct Opcode *opcode, uint32_t *read_index);*/
+/*uint8_t get_opcode(struct File *rom, struct Opcode *opcode, uint32_t
+ * *read_index);*/
 /*int serialize_instruction(struct Instruction *instruction, cJSON *json);*/
-/*void jump(struct CPU *cpu, const enum Conditions *condition, const uint16_t n16);*/
+/*void jump(struct CPU *cpu, const enum Conditions *condition, const uint16_t
+ * n16);*/
 int cpu_step(struct CPU *cpu, cJSON *json);
 
-
 #endif
-
-

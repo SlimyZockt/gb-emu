@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <cJSON.h>
 #include <emulation.h>
+#include <instruction.h>
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
@@ -86,7 +87,7 @@ enum OperandType get_operand_val(char *operand_name) {
     }
   }
 
-  return R_NONE;
+  return NONE;
 }
 
 uint8_t get_opcode(uint8_t *rom, struct Opcode *opcode, uint16_t *pc) {
@@ -247,13 +248,16 @@ int cpu_step(struct CPU *cpu, cJSON *json) {
   SDL_Log("###################### \n");
 
   if (strncmp(instruction.mnemonic, "LD", 2) == 0) {
+    ld(&instruction, cpu);
   }
 
   if (strncmp(instruction.mnemonic, "LDH", 3) == 0) {
+    ldh(&instruction, cpu);
   }
 
   if (strncmp(instruction.mnemonic, "JP", 2) == 0) {
     assert(instruction.operand_count <= 2);
+    ldh(&instruction, cpu);
   }
 
   switch (instruction.opcode->val) {
